@@ -1,0 +1,29 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+coverage.*
+
+# Build outputs
+/bin/
+/dist/
+/build/
+*.apk
+*.ipa
+*.app/
+*.dmg
+
+# Local runtime / dev secrets
+/relay/
+/data/
+.env
+*.key
+*.corrupt
